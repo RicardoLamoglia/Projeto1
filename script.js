@@ -40,7 +40,10 @@ function toggleMode() {
     )
 
     certificados.innerText = "Meus Certificados"
-    certificados.setAttribute("href")
+    certificados.setAttribute(
+      "href",
+      "https://drive.google.com/file/d/1AysGCXsGHSLmvDt-PO5j33hrLi1Dq2Q2/view?usp=sharing"
+    )
 
     // Adicione aqui outras modificações necessárias para o modo claro
   } else {
@@ -67,8 +70,11 @@ function toggleMode() {
       "https://api.whatsapp.com/send/?phone=21983836713&text&type=phone_number&app_absent=0"
     )
 
-    certificados.innerText = "Meus Certificados"
-    certificados.setAttribute("href")
+    certificados.innerText = "Cartão de Visita"
+    certificados.setAttribute(
+      "href",
+      "https://drive.google.com/file/d/125l6PAl_P_QZOewtAxKVaKq6MD_eNMAj/view?usp=sharing"
+    )
 
     // Adicione aqui outras modificações necessárias para o modo escuro
   }
