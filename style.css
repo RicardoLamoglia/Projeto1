@@ -152,6 +152,7 @@ ul li a:hover {
 
   font-size: 24px;
 }
+
 #social-links a {
   display: flex;
   align-items: center;
@@ -170,17 +171,26 @@ footer {
   padding: 24px 0;
   text-align: center;
   color: var(--text-color);
-  font-size: 14px;
+  font-size: 15px;
 }
 
 /* media queries*/
-@media (min-width: 700px) {
+@media (min-width: 768px) {
   :root {
-    --bg-url: url(./assets/bg-desktop.jpg);
+    --bg-url: url(./assets/bg-mobile.jpg);
   }
 
   .light {
     --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --bg-url: url(./assets/bg-mobile.jpg);
+  }
+  .light {
+    --bg-url: url(./assets/bg-mobile-light.jpg);
   }
 }
 
