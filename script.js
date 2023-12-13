@@ -6,11 +6,10 @@ function toggleMode(){
    const img = document.querySelector("#profile img")
 
 
- if(html.classList.contains('light')){
-    img.setAttribute("src", "./assets/Foto-dia.png.png")
- }
- else{
-  img.setAttribute("src", "./assets/Foto-noite.jpeg")
+ if (html.classList.contains("light")) {
+   img.setAttribute("src", "./assets/Foto-dia.png.png")
+ } else {
+   img.setAttribute("src", "./assets/Foto-noite.jpeg")
  }
 
   
