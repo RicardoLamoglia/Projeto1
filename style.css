@@ -11,7 +11,7 @@
   --surface-color: rgba(255, 255, 255, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(225, 225, 225, 0.2);
-  --switch-bg-url: url(./assets/sun.svg);
+  --switch-bg-url: url(./assets/moon-stars.svg);
 }
 
 .light {
@@ -21,7 +21,7 @@
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(0, 0, 0, 0.1);
-  --switch-bg-url: url(./assets/moon-stars.svg);
+  --switch-bg-url: url(./assets/sun.svg);
 }
 
 body {
@@ -164,9 +164,10 @@ ul li a:hover {
 
 #social-links a:hover {
   background: var(--highlight-color);
-}
-
+}    
+      
 footer {
+  
   padding: 16px 0;
   text-align: center;
   color: var(--text-color);
