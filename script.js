@@ -18,8 +18,7 @@ function toggleMode() {
     img.setAttribute("src", "./assets/Foto-dia.png.png")
     nome.innerText = "Ricardo Gonçalves Lamoglia"
 
-    descricao.innerText =
-      "Estudante de Engenharia da Computação, estudei um ano e meio no INATEL vendo C++, atualmente segundo período na Estadio de Sá "
+    descricao.innerText = "Estudante de Engenharia da Computação "
 
     projetos.innerText = "Meu portifólio"
     projetos.setAttribute(
@@ -30,7 +29,7 @@ function toggleMode() {
     curriculo.innerText = "Meu currículo"
     curriculo.setAttribute(
       "href",
-      "https://drive.google.com/file/d/1ifGkAFZgqrkA2wb-lYRSeIgucEEKekMa/view"
+      "https://drive.google.com/file/d/1T3c2C2h78ge-kceVY3DhJ6R0SCKu9ASc/view?usp=sharing"
     )
 
     codigo_fonte.innerText = "Código fonte desse projeto"
