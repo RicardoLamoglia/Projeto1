@@ -18,7 +18,7 @@ function toggleMode() {
     img.setAttribute("src", "./assets/Foto-dia.png.png")
     nome.innerText = "Ricardo Gonçalves Lamoglia"
 
-    descricao.innerText = "Estudante de Engenharia da Computação "
+    descricao.innerText = "Estudande de Engenharia da Computação, a procura de uma chance de receber mais conhecimento "
 
     projetos.innerText = "Meu portifólio"
     projetos.setAttribute(
@@ -29,7 +29,7 @@ function toggleMode() {
     curriculo.innerText = "Meu currículo"
     curriculo.setAttribute(
       "href",
-      "https://drive.google.com/file/d/1T3c2C2h78ge-kceVY3DhJ6R0SCKu9ASc/view?usp=sharing"
+      "https://drive.google.com/file/d/1sFYK1mrsDXzAICKcQ5jrAE-FJgbzCCij/view?usp=sharing"
     )
 
     codigo_fonte.innerText = "Código fonte desse projeto"
@@ -47,7 +47,7 @@ function toggleMode() {
     // Adicione aqui outras modificações necessárias para o modo claro
   } else {
     // Changes to dark mode
-    img.setAttribute("src", "./assets/Foto-noite.jpeg")
+    img.setAttribute("src", "./assets/Foto para perfil noite.jpeg")
     nome.innerText = "Lamoglia"
     descricao.innerText = "Conheça mais sobre mim"
 
